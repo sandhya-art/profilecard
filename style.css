@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+
+* {
+   
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Josefin slab', slab-serif;
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    display: flex;
+    box-shadow: 0 30px 20px 0 rgba(230, 79, 10, 0.5)
+}
+body {
+    background: #fff;
+}
+
+.wrapper .left {
+    width: 35%;
+    background: linear-gradient(to right, #FFD0D0, #C1ECE4);
+    padding: 30px 25px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    color: #dd1010;
+
+}
+
+.wrapper .left img {
+    margin-bottom: 10px;
+    border-radius: 500px;
+}
+
+.wrapper .left h4 {
+    color: rgb(147, 38, 219);
+    margin-bottom: 10px;
+}
+
+.wrapper .left p {
+    color: rgb(100, 19, 177);
+    font-size: 16px
+}
+
+.wrapper .right {
+    width: 65%;
+    background: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px 25px;
+}
+
+.wrapper .right .info,
+.wrapper .right .projects {
+    margin-bottom: 45px;
+}
+
+.wrapper .right .info h3,
+.wrapper .right .projects h3 {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #353c4e;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+}
+
+.wrapper .right .info .info_data h4 {
+    color: #000000
+}
+
+.wrapper .right .projects .data {
+    color: #080808
+}
+
+.wrapper .right .info .data h4,
+.wrapper .right .projects .data h4 {
+  
+    margin-bottom: 5px;
+}
+
+
+.wrapper .social_media ul {
+    display: flex;
+
+}
+.wrapper .right .info .contact_info {
+  background-color: #F5F5F5;
+  border: 1px solid #ccc;
+  padding-left: 5px;
+  padding-right: 6px;
+  text-align: center;
+  
+}
+
+.wrapper .social_media ul li {
+    width: 55px;
+    height: 55px;
+    background: linear-gradient(to right, #e62626, #C1ECE4);
+    margin-right: 10px;
+    border-radius: 5px;
+    line-height: 45px;
+    text-align: center;
+}
